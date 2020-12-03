@@ -3,18 +3,32 @@
 ### Install
 
 Clone the repository in your local and run:
-`npm install`
+
+```sh
+npm install
+```
 
 ### Run
 
 For headless execution run:
-`npm run cypress:headless`
+
+```sh
+npm run cypress:headless
+```
+
 
 For execution in browser run:
-`npm run cypress:browser`
+
+```sh
+npm run cypress:browser
+```
+
 
 ### Report
 
 For view mochawesome reporter run:
-`npm run report:open`
-** this report is only for headless execution.
+```sh
+npm run report:open
+```
+
+> this report is only for headless execution.
