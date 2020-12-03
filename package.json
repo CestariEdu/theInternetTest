@@ -1,0 +1,29 @@
+{
+  "name": "theinternettest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^6.0.1",
+    "mochawesome": "^6.2.1",
+    "mochawesome-report-generator": "^5.1.0",
+    "mochawesome-merge": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "cypress:browser": "npx cypress open",
+    "cypress:headless": "node cypress.js",
+    "report:open": "open mochawesome-report/mochawesome.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CestariEdu/theInternetTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CestariEdu/theInternetTest/issues"
+  },
+  "homepage": "https://github.com/CestariEdu/theInternetTest#readme"
+}
